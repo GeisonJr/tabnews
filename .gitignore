@@ -100,11 +100,4 @@ thumbs.db
 # webpack.config.js
 
 # Environments
-.env
-.env.development
-.env.development.local
-.env.local
-.env.production
-.env.production.local
-.env.test
-.env.test.local
+.env*.local
