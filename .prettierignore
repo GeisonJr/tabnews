@@ -100,4 +100,5 @@ thumbs.db
 # webpack.config.js
 
 # Environments
-.env*.local
+.env*
+# .env*.local
