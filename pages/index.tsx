@@ -1,6 +1,6 @@
 /* Project */
-import Container from '@/components/Container'
-import Logo from '@/components/Logo'
+import Container from '@components/Container'
+import Logo from '@components/Logo'
 import styles from './index.module.scss'
 
 export default function UnderContruction() {
