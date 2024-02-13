@@ -1,3 +1,8 @@
 export interface ResponseData {
-	message: string
+	updated_at: string
+	database: {
+		version: string
+		max_connections: number
+		active_connections: number
+	}
 }
