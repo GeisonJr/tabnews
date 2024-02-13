@@ -13,11 +13,12 @@ export async function createClient() {
 
 export async function query(sql: string) {
 	const client = await createClient()
-	await client.connect()
 	try {
+		await client.connect()
 		return await client.query(sql)
 	} catch (error) {
 		console.error(error)
+		throw error
 	} finally {
 		await client.end()
 	}
